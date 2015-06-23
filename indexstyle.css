@@ -1,0 +1,156 @@
+@font-face{
+	font-family: 'chinese';
+	src: url('assets/NotoSansHant-Medium.otf');
+	
+}
+
+body{
+
+	background-image: url("img/sec1bg.png");
+	color: #F7BF74;
+	font-size: 87.5%; /* Base fontsize is 14px*/
+	font-family: 'chinese';
+	line-height: 1.5;
+	text-align: left;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+
+}
+
+h2 {
+	text-align: center;
+	font-size: 28px;
+	color:#EA6026;
+	margin-top: 0;	
+	text-transform: uppercase
+}
+
+h3 {
+	color:#EA6026;
+	margin-top: 0;	
+	text-transform: uppercase
+}
+
+
+
+a:link , a:visited{
+
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+
+.mainContent{	
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	margin-left: 5%;
+	margin-right:5%;
+	margin-top: 5%;
+	width: 90%;
+	height: auto;
+	
+
+}
+
+
+.leftImage {
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+
+.rightImage {
+	float: right;
+	width: 50%;
+
+}
+
+
+.mobileImages{
+	display: none;
+}
+
+.mainFooter{
+	clear: both;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 150px) and (max-width: 419px){
+
+	.leftImage {
+		display: none;
+	}
+
+	.rightImage {
+		display: none;
+	}
+
+	.mobileImages{
+
+		background-color: #000000;
+		display: inherit;
+		width: 100%;
+		text-align: center;
+	}
+
+	.mobileImages img{
+		display: block;
+		font-size: 0;
+		margin-left: 5%;
+		margin-right:5%;
+		width: 90%;
+	}
+
+
+	.topImageMobile{
+
+		margin: 0;
+
+	}
+
+	.bottomImageMobile{
+
+		display: inline-block;
+
+	}
+}
+
+@media only screen and (min-width: 420px) and (max-width: 767px){
+	.leftImage img{
+		width: 100%;
+	}
+
+	.rightImage img{
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px){
+	.leftImage img{
+		width: 100%;
+	}
+
+	.rightImage img{
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 980px) and (max-width:1500px){
+	.leftImage img{
+		width: 100%;
+	}
+
+	.rightImage img{
+		width: 100%;
+	}
+}

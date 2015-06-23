@@ -1,0 +1,320 @@
+<html lang = "en">
+
+<head>
+	<title>Drunken Monkey Cooking Studio</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href=classstyle.css>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body class="body">
+
+
+	<header class="mainHeader">
+
+		<div class="languageNavBar">
+			<ul>
+				<li><a href="javascript:toggleDiv();">English</a></li>
+				<li><a href="javascript:toggleDiv();">中文</a></li>
+			</ul> 
+		</div>
+		<div class="imageDiv">
+			<img src="img/logo.png">
+		</div>
+		
+
+		<div class="navBar">
+			<ul>
+				<li><a href="restaurant.html">Restaurant</a></li>
+				<li class="currentPage"><a href="class.html">Cooking Class</a></li>
+			</ul> 
+		</div>
+
+	</header>
+
+	<div class="mainContent">
+
+		<div class="descriptionContent">At the Drunken Monkey you will have the opportunity to learn how to cook authentic Chinese food in a fully equipped professional kitchen.  We offer classes for students with any level of experience, from complete beginners to seasoned veterans.
+
+			<h3><a href="javascript:slideToggleDiv();" class="instructorLink">Meet the Instructors!</a></h3>
+		</div>
+
+		<div class="instructorContent">
+			<div class="instructorLeft">
+				<h3>Head Chef</h3>
+				<img src="img/portrait_alex.png">
+				<div class="instructorText">
+					<h4>Alex Holliday</h4>
+					<p>I'm the head chef at the Drunken Monkey!  I've lived in Taiwan for the past 10 years, and I've run the Drunken Monkey for the last three.  I have experience working in Chinese, Taiwanese, and Hong Kong style kitchens, and I'm happy to have the opportunity to share that experience with you!</p>
+					<ul>
+						<li>Food Safe Level One certiciate issued by Vancouver Coastal Health</li>
+						<li>Asian Culinary Arts Certificate issued by VCC</li>
+						<li>Specialize in Taiwanese Stir Fry</li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="instructorRight">
+				<h3>Second Chef</h3>
+				<img src="img/portrait_annie.png">
+				<div class="instructorText">
+				<h4>Annie Hsu</h4>
+				<p>I have been working in the restaurant and hospitality industry for more than 6 years now! Making delicious deep fried food is what I am good at and what I love to do.  If you want to know about our delicious Deep Fried Bananas I'm the one to ask! I also have experience in confections and desserts. </p>
+				<ul>
+					<li>General manager at Drunken Monkey</li>
+					<li>Baker at Sun's Salon cafe</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="descriptionContentZH">在醉悟空，我們提供營業用配備的專業器材大廚房讓您體驗在台灣最常享用到的各式料理，包括道地的台式熱炒，港式點心，以及各式台灣小吃。無論您是從沒有進過廚房的新手或是燒得一手好菜的老手，我們都有不同程度不同主題的體驗活動等您來試試手藝，給自己一個驚喜，體驗在專業廚房下廚的樂趣！
+		<h3><a href="javascript:slideToggleDivZH();" class="instructorLink">Meet the Instructors!</a></h3>
+		</div>
+
+		<div class="instructorContentZH">
+			<div class="instructorLeft">
+				<h3>ZH</h3>
+				<img src="img/portrait_alex.png">
+				<div class="instructorText">
+					<h4>Alex Holliday</h4>
+					<p>ZH</p>
+					<ul>
+						<li>ZH</li>
+						<li>ZH</li>
+						<li>ZH</li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="instructorRight">
+				<h3>Second Chef</h3>
+				<img src="img/portrait_annie.png">
+				<div class="instructorText">
+				<h3>Annie Hsu</h3>
+				<p>ZH</p>
+				<ul>
+					<li>ZH</li>
+					<li>ZH</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="classContent">
+			<div class="classes">
+				<header>
+					<h2>Classes</h2>
+				</header>
+
+				<div class="classesLeft">
+					<ul>
+						<li class="parent">Taiwanese Stir Fry</li>
+						<ul class="child">
+							<li><a href="">Introduction and Kinfe Skills</a></li>
+							<li><a href="#">Beef and Pork</a></li>
+							<li><a href="#">Starches</a></li>
+							<li><a href="#">Chicken</a></li>
+							<li><a href="#">Eggs</a></li>
+							<li><a href="#">Tofu</a></li>
+							<li><a href="#">Deep Frying</a></li>
+						</ul>
+					</ul>					
+				</div>
+
+				<div class="classesRight">
+					<ul>
+						<li class="parent">Snacks and Dim Sum</li>
+						<ul class = "child">
+							<li><a href="">Dumplings</a></li>
+							<li><a href="#">Green Onion Pancake</a></li>
+							<li><a href="#">Chinese Donut</a></li>
+							<li><a href="#">Ba Wan (Taiwanese Dumplings)</a></li>
+							<li><a href="#">Glutinous Rice Balls</a></li>
+							<li><a href="#">Marinated Dishes</a></li>
+							<li><a href="#">Sauces</a></li>
+							<li><a href="#">Braised Meat Rice</a></li>
+						</ul>		
+					</ul>			
+				</div>
+
+
+			</div>
+		</div>
+
+		<div class="classContentZH">
+			<div class="classes">
+				<header>
+					<h2>台灣飲食文化體驗</h2>
+				</header>
+
+				<div class="classesLeft">
+					<ul>
+						<li class="parent">台式熱炒體驗</li>
+						<ul class="child">
+							<li><a href="">導論與刀工</a></li>
+							<li><a href="#">牛肉與豬肉料理</a></li>
+							<li><a href="#">飯麵主食料理</a></li>
+							<li><a href="#">雞肉料理</a></li>
+							<li><a href="#">雞蛋料理</a></li>
+							<li><a href="#">豆腐料理</a></li>
+							<li><a href="#">油炸料理</a></li>
+						</ul>
+					</ul>					
+				</div>
+
+				<div class="classesRight">
+					<ul>
+						<li class="parent">台灣小吃動手做</li>
+						<ul class = "child">
+							<li><a href="">餃子</a></li>
+							<li><a href="#">蔥油餅</a></li>
+							<li><a href="#">油條</a></li>
+							<li><a href="#">肉圓</a></li>
+							<li><a href="#">湯圓</a></li>
+							<li><a href="#">滷味</a></li>
+							<li><a href="#">各式醬料</a></li>
+							<li><a href="#">魯肉飯</a></li>
+						</ul>		
+					</ul>			
+				</div>
+
+
+			</div>
+		</div>
+
+		<div class="explanationContent">
+			<header>
+				<h2>How it works</h2>
+			</header>
+
+			<p>It's really easy!  Tell us what you want to learn, and we'll tell you everything we know.  Chinese restaurants are infamous for hoaring their knowledge jealously, and we'd like to change that.  Drop us an e-mail or come by the shop and chat if you have any questions.</p>
+			<div class="first">
+				<header>
+					<h3>Stir Fry Classes</h3>
+				</header>
+				<p>Stir Fry is the heart and soul of 熱炒 (literally hot fry), and we are pleased to be able to offer lessons in the art of stiry fry.  Each of our classes are two hours long, and students may pick and choose a'la carte according to their interests.  First time students should start with the Introduction and Kife Skills course which teaches the basics of Chinese cooking.  Click on one of our courses above for more details!</p>
+			</div>
+
+			<div class="second">
+				<h3>Taiwanese Snacks and Dim Sum</h3>
+				<p>Tainan native Annie Hsu offers a selection of classes where you will learn how to make the snacks that make Taiwan famous!  Don't miss out on this one!</p>
+			</div>
+
+
+			<div class="third">
+				<h3>Intensive Studies</h3>
+				<p>For students who take their cooking very seriously, spend 9 classes with us and complete the whole Stir Fry course!</p>
+			</div>
+
+
+
+			<div class="fourth">
+				<h3>Returning Students</h3>
+				<p>Students who have already completed the introductory course with us may choose from any of our course modules above.</p>
+			</div>
+
+		</div>
+
+		<div class="explanationContentZH">
+			<header>
+				<h2>如何參加台灣飲食文化體驗活動？</h2>
+			</header>
+
+			<p>在體驗活動中，醉悟空會將我們所知道的料理知識都分享給您！中式餐廳總讓人有神秘私房獨家配方的印象，我們希望能夠把很多營業餐廳在使用的小秘方都分享給大家。寄封EMAIL到drunkenmonkeytw@gmail.com給我們或是來店裡跟我們聊聊！</p>
+			<div class="first">
+				<header>
+					<h3>第一次台式熱炒體驗</h3>
+				</header>
+				<p>熱炒是台式料理中最受歡迎也最具代表性的一種，我們提供各種兩小時的熱炒體驗活動選擇。第一次參加的同學請先選擇參加"導論與刀工"的入門體驗活動，學習中式料理各方面的基礎動作。</p>
+			</div>
+
+			<div class="second">
+				<h3>台灣小吃動手做</h3>
+				<p>醉悟空也提供各式揚名世界台灣小吃的體驗活動，讓您可以試試自己動手做這些驚艷國際的美味小點心，千萬別錯過，快看看上面選單中有什麼您最愛的台灣小吃吧！</p>
+			</div>
+
+
+			<div class="third">
+				<h3>進階研究</h3>
+				<p>如果您想體驗完整的台式熱炒菜色，我們也可為您安排九次的活動，與您分享各種種類熱炒料理的功夫與小秘訣！</p>
+			</div>
+
+
+
+			<div class="fourth">
+				<h3>第二次或更多次體驗台式熱炒</h3>
+				<p>已參加過"導論與刀工"入門體驗活動的朋友，歡迎從上面選單中選擇您最有興趣的類別再次來體驗在熱炒店炒熱炒！</p>
+			</div>
+
+		</div>
+
+
+	</div>
+
+
+
+	<footer class="mainFooter">
+		<p>Copyright &copy BWH International, 2015<p>
+		</footer>
+
+
+		<script src="assets/jquery-2.1.3.min.js"></script>
+		<script>
+			var thisBody = document.body || document.documentElement,
+			thisStyle = thisBody.style,
+			transitionEndEvent = 'webkitTransitionEnd transitionend',
+			cssTransitionsSupported = thisStyle.WebkitTransition !== undefined || thisStyle.transition !== undefined,
+			has3D = ('WebKitCSSMatrix' in window && 'm11' in new WebKitCSSMatrix());
+
+
+// Switch to CSS3 Transform 3D if supported & accordion element exist
+if(cssTransitionsSupported && has3D ) {
+	if($('.child').length > 0) { 
+		$('.child').addClass("accordion_css3_support");
+	}
+}
+
+
+$('.parent').bind('touchstart click', function(e) {
+	e.preventDefault();
+        //If browser not support transition or 3D transform (for webkit browser only)
+        if(!cssTransitionsSupported || !has3D ) {
+        	$(this).toggleClass('parentToggled');
+        	$(this).siblings('.child').slideToggle(500);
+        } else {
+        	$(this).toggleClass('parentToggled');
+        	$(this).siblings('.child').toggleClass("animated");
+        }
+    }); 
+
+
+
+//Toggle chinese/english
+function toggleDiv() {
+	$('.descriptionContent').toggle();
+	$('.descriptionContentZH').toggle();
+
+	$('.classContent').toggle();
+	$('.classContentZH').toggle();
+
+	$('.explanationContent').toggle();
+	$('.explanationContentZH').toggle();
+}
+
+//Toggle intstructor
+function slideToggleDiv(){
+	$('.instructorContent').slideToggle();
+	$('.instructorLink').toggleClass('instructorLinkToggled')
+}
+
+function slideToggleDivZH(){
+	$('.instructorContentZH').slideToggle();
+	$('.instructorLink').toggleClass('instructorLinkToggled')
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,522 @@
+@font-face{
+	font-family: 'chinese';
+	src: url('assets/NotoSansHant-Medium.otf');
+	
+}
+
+body{
+	background-color: black;
+	color:#000305;
+	font-size: 87.5%; /* Base fontsize is 14px*/
+	font-family: 'chinese';
+	line-height: 1.5;
+	text-align: left;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+
+}
+
+a:link , a:visited{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.mainHeader{
+	background-image: url("img/sec1bg.png");
+	color: #fff;
+	text-align: center;
+	padding-top: 3%;
+/*	padding-bottom: 3%;*/
+}
+
+.navBar {
+	margin-top: 2%;
+	background-image: url("img/sec1bg.png");
+	
+
+
+}
+
+.navBar ul {
+	background-image: url("img/nav_bg.png");
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.navBar ul li {
+	line-height: 40px;
+	height: 40px;
+	width: 160px;
+	
+	display: inline-block;
+}
+
+.navBar ul li a {
+	display: block;
+}
+
+
+.currentPage a{
+	color: #EA6026;
+}
+
+
+.mainContent {
+	width: 100%;
+	height: 100%
+}
+
+.topContent {
+	height: 312px;
+	background-image: url("img/banner.jpg");
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.topContent img {
+	width: 100%;	
+}
+
+.hoursContent {
+	margin-top: 1%;
+	background-image: url("img/sec1bg.png");
+	color: #F7BF74;
+	padding-bottom: 2%;
+	overflow: hidden;
+}
+
+.hoursContent table {
+	width: 20%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+
+.hoursContent table th {
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+
+
+.hoursContent p{
+	line-height: 0.3;
+	text-align: center;
+	font-size: 16px;
+}
+
+.hoursContent img{
+	margin-top: 10px;
+	display: block;
+	margin: 25px auto 0 auto;
+}
+
+.imageLinkContainer {
+	width: 495px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.imageLink {
+	display: inline-block;
+	width: 160px;
+}
+
+.mapContent{
+	margin-top: 5%;
+	background-image: url("img/sec-3-background.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+
+.menuContent{
+	width: 100%;
+	color: #F7BF74;
+	background-image: url("img/metal_texture_dark.jpg");
+	overflow: hidden;
+	margin-top: 3%;
+	padding-bottom: 3%;
+	text-transform: uppercase;
+}
+
+.menuContent table {
+	margin: 0 auto;
+	font-size: 28px;
+	text-align: center;
+	border-spacing: 25px;
+	line-height: .4;
+
+}
+
+.menuContent h1 {
+	text-align: center;
+	font-size: 50px;
+	color: #F7BF74;
+	padding: 0px;
+	margin-bottom: 0;
+}
+
+.menuContent h2 {
+	text-align: center;
+	font-size: 28px;
+	color:#EA6026;
+	margin-top: 0;	
+
+}
+
+.menuContent ul{
+	margin-left: 0;
+	padding-left: 0;
+	margin-bottom: 50px;
+}
+
+.menuContent li {
+	list-style: none;
+	line-height: 50px;
+	height: 50px;
+	font-size: 24px;
+}
+
+.menuContent li:nth-child(2n) {
+	height: 25px;
+	line-height: 14px;
+	font-size: 14px;
+	background-color: transparent;
+	background: url("img/menusepgrey.png") ;
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: auto auto;
+}
+
+.menu{
+	margin-top: 3%;
+}
+
+.menu h2 {
+	font-size: 34px;
+}
+
+.price {
+	float: right;
+}
+
+.starch {	
+	margin-left: 20%;
+	margin-right: 5%;
+	width: 25%;
+	float: left;
+
+}
+
+
+.stirfry {
+	margin-right: 20%;
+	margin-left: 5%;
+	width: 25%;
+	float: right;
+}
+
+.deepfried {
+	margin-left: 20%;
+	width: 25%;
+	float: left;
+}
+
+.steamed {
+	margin-left: 20%;
+	width: 25%;
+	float: left;
+
+}
+
+.mainFooter{
+	clear: both;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 419px){
+	.mainHeader{
+		padding-bottom: 0%;
+	}
+
+	.mainHeader img {
+		width: 100%;
+
+	}
+
+	.navBar ul li {
+		width: 120px;
+	}
+
+	.topContent {
+		height: 312px;
+		background-image: url("img/banner_small.jpg");
+		background-position: 0 0;
+		animation: animatedBackground 40s linear infinite;
+		width: 100%;
+		text-align: center;
+	}
+
+	.hoursContent table {
+		width: 100%;
+		margin: 0 auto;
+		font-size: 14px;
+		
+	}
+
+	.hoursContent p {
+		font-size: 14px;
+	}
+
+	.imageLinkContainer {
+		width: 300px;
+		text-align: center;
+		margin: 0 auto;
+
+	}
+
+
+	.mapContent img {
+		width: 100%;
+	}
+
+	.menu{
+		margin-top: 10%;
+	}
+
+	.menuContent table {
+		font-size: 16px;
+		line-height: 0;
+	}
+
+	.menuContent h1 {
+		font-size: 32px;
+	}
+
+	.menuContent h2 {
+		font-size: 20px;
+	}
+
+	.menuContent li {
+		font-size: 20px;
+	}
+
+	.menuContent li:nth-child(2n) {
+		font-size: 12px;
+		line-height: 12px;
+	}
+
+	.menu h2 {
+		font-size: 24px;
+	}
+
+
+	.starch {	
+		margin-left: 3%;
+		margin-right: 3%;
+		width: 94%;
+		float: none;
+
+	}
+
+
+	.stirfry {
+		margin-right: 3%;
+		margin-left: 3%;
+		width: 94%;
+		float: none;
+	}
+
+	.deepfried {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		float: none;
+	}
+
+	.steamed {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		float: none;
+		clear: both;
+	}
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 767px){
+
+	.mainHeader img {
+		width: 100%;
+	}
+
+
+
+	.hoursContent table {
+		width: 80%;
+		margin: 0 auto;	
+		font-size: 18px;
+	}
+
+	.hoursContent p {
+		font-size: 14px;
+	}
+
+	.imageLinkContainer {
+		width: 300px;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.mapContent img {
+		width: 100%;
+	}
+
+	.menu{
+		margin-top: 10%;
+	}
+
+	.menuContent table {
+		font-size: 24px;
+		line-height: 0.2;
+	}
+
+	.menuContent h1 {
+		font-size: 40px;
+	}
+
+	.menuContent li {
+		font-size: 18px;
+	}
+
+
+	.starch {	
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		float: none;
+
+	}
+
+
+	.stirfry {
+		margin-right: 5%;
+		margin-left: 5%;
+		width: 90%;
+		float: none;
+	}
+
+	.deepfried {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		float: none;
+	}
+
+	.steamed {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		float: none;
+		clear: both;
+	}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px){
+
+	
+
+	.mapContent img {
+		width: 100%;
+	}
+
+	.menuContent li {
+		font-size: 18px;
+	}
+
+
+	.starch {	
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		float: none;
+
+	}
+
+
+	.stirfry {
+		margin-right: 5%;
+		margin-left: 5%;
+		width: 90%;
+		float: none;
+	}
+
+	.deepfried {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		float: none;
+	}
+
+	.steamed {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		float: none;
+		clear: both;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1800px){
+
+
+	.menuContent li {
+		font-size: 18px;
+	}
+
+	.starch {	
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 40%;
+	}
+
+
+	.stirfry {
+		margin-right: 5%;
+		margin-left: 5%;
+		width: 40%;
+	}
+
+	.deepfried {
+		margin-left: 5%;
+		width: 40%;
+	}
+
+	.steamed {
+		margin-left: 5%;
+		width: 40%;
+	}
+}

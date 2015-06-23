@@ -1,0 +1,149 @@
+<html lang = "en">
+
+<head>
+	<title>Drunken Monkey Cooking Studio</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href=alacartestyle.css>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body class="body">
+
+
+	<header class="mainHeader">
+
+		<div class="languageNavBar">
+			<ul>
+				<li><a href="javascript:toggleDiv();">English</a></li>
+				<li><a href="javascript:toggleDiv();">中文</a></li>
+			</ul> 
+		</div>
+		<div class="imageDiv">
+			<img src="img/logo.png">
+		</div>
+		
+
+
+
+	</header>
+
+	<div class="mainContent">
+		<div class="descriptionContent"><p>Stir Fry is the heart and soul of 熱炒 (literally hot fry), and we are pleased to be able to offer lessons in the art of stiry fry.  Come and learn from our friendly professional staff in a fully equipped commercial Chinese kitchen.</p>
+		</div>
+
+
+
+		<div class="descriptionContentZH">
+
+		</div>
+
+
+
+		<div class="classContent">
+			<div class="classes">
+				<header>
+					<h2>Taiwanese Stir Fry</h2>
+					<a href="class.html">Back to courses</a>
+				</header>				
+				<ul>
+					<li class="introParent"><a href="javascript:slideClassIntroDiv();" class = "test">Introduction and Knife Skills</a></li>
+					<div class ="introDetails">
+						<ul>
+							<li><a href="seta.html">Green Onion Beef</a></li>
+							<li><a href="setb.html">Three Cups Tofu</a></li>
+							<li><a href="alacarte.html">Deep Fried Oysters</a></li>									
+						</ul>
+					</div>
+				</ul>
+				<ul>
+					<li class="beefParent"><a href="javascript:slideClassBeefDiv();" class = "test">Beef and Pork</a></li>
+					<div class ="beefDetails">
+						<ul>
+							<li><a href="seta.html">Green Onion Beef</a></li>
+							<li><a href="setb.html">Three Cups Tofu</a></li>
+							<li><a href="alacarte.html">Deep Fried Oysters</a></li>									
+						</ul>
+					</div>
+				</ul>
+				<ul>
+					<li class="starchParent"><a href="javascript:slideClassStarchDiv();" class = "test">Starches</a></li>
+					<div class ="starchDetails">
+						<ul>
+							<li><a href="seta.html">Fried Rice</a></li>
+							<li><a href="setb.html">Fried Noodles</a></li>							
+						</ul>
+					</div>
+				</ul>		
+
+			</div>
+		</div>
+
+		<div class="classContentZH">
+			<div class="classes">
+				<header>
+					<h2>台灣飲食文化體驗</h2>
+				</header>
+
+
+			</div>
+		</div>
+
+
+
+
+		<footer class="mainFooter">
+			<div class="footerInfo">
+				<a href="form.html">Click here to sign up!</a>
+				<p>台北市虎林街55巷5號</p>
+				<p>No 5, Lane 55 Hulin Rd, Taipei City</p>
+				<p>0983366452</p>
+				<p>drunkenmonkeytw@gmail.com</p>
+			</div>
+
+			<p>Copyright &copy BWH International, 2015<p>
+			</footer>
+
+
+			<script src="assets/jquery-2.1.3.min.js"></script>
+			<script>
+				function toggleDiv() {
+					$('.descriptionContent').toggle();
+					$('.descriptionContentZH').toggle();
+
+					$('.classContent').toggle();
+					$('.classContentZH').toggle();
+
+					$('.explanationContent').toggle();
+					$('.explanationContentZH').toggle();
+				}
+
+
+				function slideClassIntroDiv(){
+					$('.introDetails').toggleClass('show');
+					$('.introParent').toggleClass('parentToggled');
+
+				}
+
+				function slideClassBeefDiv(){
+					$('.beefDetails').toggleClass('show');
+					$('.beefParent').toggleClass('parentToggled');
+				}
+
+				function slideClassStarchDiv(){
+					$('.starchDetails').toggleClass('show');
+					$('.starchParent').toggleClass('parentToggled');
+				}
+
+				function slideToggleDiv(){
+					$('.instructorContent').toggleClass('show');
+					$('.instructorLink').toggleClass('instructorLinkToggled');
+				}
+
+				function slideToggleDivZH(){
+					$('.instructorContentZH').slideToggle();
+					$('.instructorLink').toggleClass('instructorLinkToggled');
+				}
+			</script>
+		</body>
+		</html>

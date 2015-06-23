@@ -1,0 +1,141 @@
+@font-face{
+	font-family: 'chinese';
+	src: url('assets/NotoSansHant-Medium.otf');
+	
+}
+
+body{
+	background-color: black;
+	color:#000305;
+	font-size: 87.5%; /* Base fontsize is 14px*/
+	font-family: 'chinese';
+	line-height: 1.5;
+	text-align: left;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+
+}
+
+a:link , a:visited{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.mainContent {
+	margin-top: 5%;
+	width: 100%;
+	height: 100%
+}
+
+.menuContent{
+	color: #F7BF74;
+}
+
+.price {
+	float: right;
+}
+
+.menuContent h2 {
+	text-align: center;
+	font-size: 28px;
+	color:#EA6026;
+	margin-top: 0;	
+
+}
+
+.menuContent ul{
+	margin-left: 0;
+	padding-left: 0;
+	margin-bottom: 50px;
+}
+
+.menuContent li {
+	list-style: none;
+	line-height: 50px;
+	height: 50px;
+	font-size: 24px;
+}
+
+.menuContent li:nth-child(2n) {
+	height: 25px;
+	line-height: 14px;
+	font-size: 14px;
+	background-color: transparent;
+	background: url("img/menusepgrey.png") ;
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: auto auto;
+}
+
+.leftColumn {
+	float: left;
+	width: 25%;
+	padding-left: 20%;
+	padding-right: 5%;
+}
+
+.rightColumn {
+	float: right;
+	width: 25%;
+	padding-left: 5%;
+	padding-right: 20%;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 419px){
+
+
+	.menuContent li {
+		font-size: 18px;
+	}
+
+	.menuContent li:nth-child(2n) {
+		font-size: 12px;
+	}
+
+	.leftColumn {
+		float: left;
+		width: 90%;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+
+	.rightColumn {
+		float: left;
+		width: 90%;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+}
+
+@media only screen and (min-width: 420px) and (max-width: 767px){
+	.leftColumn {
+		float: left;
+		width: 70%;
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+
+	.rightColumn {
+		float: left;
+		width: 70%;
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px){
+	.leftColumn {
+		width: 30%;
+		padding-left: 15%;
+		padding-right: 5%;
+	}
+
+	.rightColumn{
+		width: 30%;
+		padding-left: 5%;
+		padding-right: 15%;
+	}
+	}
