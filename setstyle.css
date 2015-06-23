@@ -210,8 +210,8 @@ margin-right: 30%;*/
 }
 
 .classContent ul ul li a{
-		font-size: 14px;
-	}
+	font-size: 14px;
+}
 
 .classContentZH{
 	-moz-box-sizing:border-box;
@@ -219,10 +219,9 @@ margin-right: 30%;*/
 	box-sizing:border-box;
 	width: 100%;
 	background-image: url("img/metal_texture_dark.jpg");
-	
+	text-align: center;
 	overflow: hidden;
 	padding-top: 2%;
-	margin-top: 3%;
 	padding-bottom: 3%;
 	text-transform: uppercase;
 	display: none;
@@ -265,6 +264,10 @@ margin-right: 30%;*/
 
 .classContentZH a {
 	font-size: 20px;
+}
+
+.classContentZH ul ul li a{
+	font-size: 14px;
 }
 
 .introParent:before {
@@ -318,6 +321,23 @@ margin-right: 30%;*/
 	font-size: 28px;
 	line-height: 2em;
 }
+
+
+.footerInfoZH {
+	line-height: .5;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: #F7BF74;
+	display: none;
+}
+
+
+
+.footerInfoZH a {
+	font-size: 28px;
+	line-height: 2em;
+}
+
 
 @media only screen and (min-width: 150px) and (max-width: 419px){
 
