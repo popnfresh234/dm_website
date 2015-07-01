@@ -36,20 +36,20 @@
 		<div class="descriptionContent"><p>熱炒是台式料理中最受歡迎也最具代表性的一種，我們非常榮幸能有機會讓您來我們完整配備的商業廚房中，在我們專業又友善的員工指導之下，自己動手體驗一下在大廚房快炒爐前做出這些您最愛吃的熱炒料理！</p>
 		</div>
 
-		<div class="classContent">
+		<div class="classContent" id="linkTarget">
 			<div class="classes">
 				<header>
 					<h2>台式熱炒體驗</h2>
 				</header>
-				<a href="classzh.html">回到台式熱炒體驗主選單</a>
+				<a href="classzh.html#linkTarget">回到台式熱炒體驗主選單</a>
 				<ul>
 
 					<li class="parentLeft"><a href="javascript:slideClassLeftDiv();" class = "test">A套餐</a></li>
 					<div class ="childLeft">
 						<ul>
-							<li><a href="seta.html">宮保雞丁</a></li>
-							<li><a href="setb.html">麻婆豆腐</a></li>
-							<li><a href="alacarte.html">鹽酥龍珠</a></li>									
+							<li><a href="#">宮保雞丁</a></li>
+							<li><a href="#">麻婆豆腐</a></li>
+							<li><a href="#">鹽酥龍珠</a></li>									
 						</ul>
 					</div>
 				</ul>		
@@ -78,24 +78,24 @@
 
 			<script src="assets/jquery-2.1.3.min.js"></script>
 			<script>
-				function toggleDiv() {
-					$('.descriptionContent').toggle();
-					$('.descriptionContentZH').toggle();
+			function toggleDiv() {
+				$('.descriptionContent').toggle();
+				$('.descriptionContentZH').toggle();
 
-					$('.classContent').toggle();
-					$('.classContentZH').toggle();
+				$('.classContent').toggle();
+				$('.classContentZH').toggle();
 
-					$('.footerInfo').toggle();
-					$('.footerInfoZH').toggle();
+				$('.footerInfo').toggle();
+				$('.footerInfoZH').toggle();
 
 
-				}
+			}
 
-				function slideClassLeftDiv(){
-					$('.childLeft').toggleClass('show');
-					$('.parentLeft').toggleClass('parentToggled');
+			function slideClassLeftDiv(){
+				$('.childLeft').toggleClass('show');
+				$('.parentLeft').toggleClass('parentToggled');
 
-				}
+			}
 
 
 			</script>
